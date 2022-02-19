@@ -3,8 +3,8 @@
 # Script to check if there are kids born from wedlock in the database. The code is built upon a few assumptions which
 # I explain before the code.
 
-# The code is built upon the assumption that there is no one whose parents have married, divorced, and then remarried to
-# the same person, which can be checked by running the following script:
+# There is no one whose parents have married, divorced, and then remarried to the same person, which can be checked by
+# running the following script:
 # import wedlock
 # for person in wedlock.persons:
 #     parent_marriages = []
@@ -16,7 +16,7 @@
 
 # Also, no one is born in the 1800s. Everyone with 2-digit birth year over 30 has both parents properly recorded, and
 # as the exercise description states: "all children's parents are in the database until we go so far back that records
-# did not exists".
+# did not exists". Can be proven by running:
 # import wedlock
 # for person in wedlock.persons:
 #     cpr = person[0]
