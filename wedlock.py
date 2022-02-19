@@ -34,7 +34,7 @@ import datetime as dt
 
 # Function to reformat the birthdays from the CPR numbers.
 # Because the data is from 2016 and there is no one from the 1800s, we can safely assume that anyone with a 2-digit
-# birth year bigger than 16 is from the 20th century. When it's bigger than 16, to decide whether a person is from
+# birth year bigger than 16 is from the 20th century. When it's not bigger than 16, to decide whether a person is from
 # the 21st or 20th century, we check if the parents are recorded in the database (again, as the exercise description
 # states: "all children's parents are in the database until we go so far back that records did not exists").
 def reformat_birthday(person):
