@@ -1,13 +1,10 @@
 # wedlock.py
 
-import mysql.connector
-import datetime as dt
+# Script to check if there are kids born from wedlock in the database. The code is built upon a few assumptions which
+# I explain before the code.
 
-# Script to check if there are kids born from wedlock in the database. The code makes a few assumptions, which I will
-# explain and prove before explaining the code.
-
-# The code assumes that there is no one whose parents have married, divorced, and then remarried (to the same person),
-# which can be checked by running the following script:
+# The code is built upon the assumption that there is no one whose parents have married, divorced, and then remarried to
+# the same person, which can be checked by running the following script:
 # import wedlock
 # for person in wedlock.persons:
 #     parent_marriages = []
@@ -29,7 +26,10 @@ import datetime as dt
 #         print(person)
 
 
-# Section for defining functions. Skip to the main program logic when reading the code for the first time.
+import mysql.connector
+import datetime as dt
+
+# Section for defining functions. Skip to the main program logic if reading the code for the first time.
 
 
 # Function to reformat the birthdays from the CPR numbers.

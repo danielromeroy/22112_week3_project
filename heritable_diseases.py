@@ -1,11 +1,8 @@
 # heritable_diseases.py
 
-import mysql.connector
-
-
 # Script to track heritable diseases in the database.
 
-# The code builds on the assumptions described in wedlock.py. But also, there is no one who has only 1 registered
+# The code builds upon the assumptions described in wedlock.py. But also, there is no one who has only 1 registered
 # parent, which can be proven by running the following script:
 # import heritable_diseases
 # for person in heritable_diseases.persons:
@@ -13,7 +10,10 @@ import mysql.connector
 #         print(person)
 
 
+import mysql.connector
+
 # Section for defining functions. Skip to the main program logic when reading the code for the first time.
+
 
 # Function to get a person given only the CPR number
 def fetch_person(cpr):
