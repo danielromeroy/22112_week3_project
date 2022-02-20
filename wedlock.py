@@ -141,4 +141,4 @@ cnx.close()
 # ('010670-8375', 'Simon', 'Petersen', 161, 98, '080651-3982', '020436-7157')
 # ('010822-2961', 'Herluf', 'Laursen', 165, 97, '210406-3862', '040701-0179')
 # ... (+ 246 lines not shown here)
-# 251 kids born from wedlock.
+# 262 kids born from wedlock.

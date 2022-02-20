@@ -123,9 +123,9 @@ if __name__ == '__main__':
 
 # Output:
 # Daniel Pedersen has had cancer. Their father (Frank Pedersen) and their parental grandfather (Herman Pedersen) have also had it.
+# Peter Thomsen has had cancer. Their father (Flemming Thomsen) and their parental grandfather (Jokum Thomsen) have also had it.
 # Betina Ponten has had cancer. Their father (Kurt Kristoffersen) and their parental grandfather (Hasse Kristoffersen) have also had it.
 # Sanne Berg has had cancer. Their father (Bent Berg) and their parental grandfather (Danny Vestergaard) have also had it.
 # Sanne Berg has had cancer. Their mother (Betty Berg) and their maternal grandfather (Danny Vestergaard) have also had it.
-# Inger Thomsen has had hemorrhoids. Their mother (Abelone Thomsen) and their maternal grandfather (Niels Brunak) have also had it.
-# ... (+19 lines not shown here)
-# Total of 24 diseases tracked.
+# ... (+21 lines not shown here)
+# Total of 26 diseases tracked.
